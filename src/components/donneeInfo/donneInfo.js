@@ -1,9 +1,10 @@
 import React from 'react'
+
+//importation du style
 import './css/donneeInfo.css'
 
+//composant DonneInfo
 export const DonneeInfo = ({ data}) => {
-    console.log(data);
-// console.log(selectedData);
     return (
         <div className='donneeInfo'>
             <h1>UserId : {data.userId}</h1>
